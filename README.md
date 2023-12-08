@@ -1,2 +1,2 @@
-# C Language-Pagination Simulation-Memory Partitioning
- Simulação de paginação e particionamento de memoria em linguagem C
+## Metodos básicos de funcionamento do computador, sistemas operacionais, organização e arquitetura de computadores
+ 
