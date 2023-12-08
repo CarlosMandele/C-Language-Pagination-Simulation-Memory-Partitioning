@@ -30,12 +30,16 @@ int main() {
                  }
             
             }
-             
-        /* code */
-    }
-        
-    {
-        /* code */
-    }
-    
-}    
+             printf("visualizacao DISCO\n");
+             for (i = 0; i<20; i++) {
+                printf("%d page [content:%c",i+1,DISCO[i].contentDISCO);
+                printf("BV:%d",DISCO[i].bv);
+                printf(" RAM:%d]\n",DISCO[i].pv);
+             }
+             printf("\nvisualizacao RAM\n");
+             for (j=0; i<2; i++) {
+                printf("%d frame [content:%c",j+1,RAM[j].contentRAM);
+                printf("BV:%d]\n",RAM[j].bv);
+             }
+              return(0);
+}
